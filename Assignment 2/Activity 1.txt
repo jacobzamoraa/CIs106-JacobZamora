@@ -1,1 +1,4 @@
 
+Function Main
+    Output "Hello, world!"
+End
