@@ -1,4 +1,3 @@
-
 Function Main
-    Output "Hello, world!"
+    Output "hello, jacob zamora!"
 End
