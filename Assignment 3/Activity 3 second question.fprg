@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacob"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-10 06:32:09 PM"/>
+        <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTA7MDY6MjQ6MjMgUE07Mjg3Mg=="/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTA7MDY6MzI6MDkgUE07MTsyOTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="yearsOld, monthsOld, daysOld, hoursOld, secondsOld" type="Integer" array="False" size=""/>
+            <output expression="&quot;How old are you in years&quot;" newline="True"/>
+            <input variable="yearsOld"/>
+            <assign variable="monthsOld" expression="yearsOld * 12"/>
+            <assign variable="daysOld" expression="yearsOld * 365"/>
+            <assign variable="hoursOld" expression="yearsOld * 365 * 24"/>
+            <assign variable="secondsold" expression="yearsOld * 365 * 24 * 3600"/>
+            <output expression="&quot;You are&quot; &amp; monthsOld &amp; &quot;months old&quot;" newline="True"/>
+            <output expression="&quot;You are&quot; &amp; daysOld &amp; &quot;days old&quot;" newline="True"/>
+            <output expression="&quot;You are&quot; &amp; hoursOld &amp; &quot;Hours old&quot;" newline="True"/>
+            <output expression="&quot;You are&quot; &amp; secondsOld &amp; &quot;seconds old&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
