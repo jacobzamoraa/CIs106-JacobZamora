@@ -6,3 +6,6 @@ I am taking this course to get the fundamentals of computer programming. I am su
 
 ## Assignment 2
 The programming language I selected was python. I selected this language because you told us that this is a popular and easier language for beginners. I intend to use this language for our class when doing assignments. I also intend to practice and try to use this language to the full extent. I tested the Thonny ide and I also intend to use the Thonny Ide program for this course. 
+
+## Assignment 3 
+What I learned about programming for this assignment is how to make basic flowcharts of procedures. I also got the feeling of using flowgorithm and python much better and easier. I pretty much have the hang of it now and it is not as confusing as before. The more I use it and really focus on what I am doing, the more I understand. How you can use flowcharts in everyday life is if you are in a business, you use flowcharts to show how orders or purchases are done as well as showing pricing in a business. 
