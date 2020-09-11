@@ -1,1 +1,23 @@
 
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacob"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-10 06:10:46 PM"/>
+        <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTA7MDU6Mzk6NDMgUE07Mjg3OQ=="/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTA7MDY6MTA6NDYgUE07MTsyOTgw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hours, rate, weeklyamount, monthlyamount, annualamount" type="Real" array="False" size=""/>
+            <input variable="hours"/>
+            <input variable="rate"/>
+            <assign variable="weeklyamount" expression="hours*rate"/>
+            <assign variable="annualamount" expression="(hours*rate*52)/12"/>
+            <output expression="&quot;Weekly amount = &quot; &amp; weeklyAmount &amp;&#13;&#10; &quot;Month amount = &quot; &amp; monthlyAmount &amp;&#13;&#10;&quot;Annual amount = &quot; &amp; annualAmount" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
