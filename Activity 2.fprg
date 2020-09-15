@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacob"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-14 04:49:12 PM"/>
+        <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTQ7MDQ6MzE6NDIgUE07Mjg3Mw=="/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMTQ7MDQ6NDk6MTIgUE07MTsyOTg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This is a program asking the user how old their dog is and converting it to human years."/>
+            <declare name="humanYear, dogYear, amount" type="Integer" array="False" size=""/>
+            <input variable="dogYear"/>
+            <assign variable="dogYear" expression="humanYear"/>
+            <assign variable="amount" expression="dogYear * humanYear"/>
+            <assign variable="amount" expression="7 * 14"/>
+            <output expression="98" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
