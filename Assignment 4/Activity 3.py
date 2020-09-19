@@ -1,8 +1,7 @@
-# This is a program asking the user for a distance in miles and converting the mile into yards, feet and inches
-eachmile = int(input())
-yards = 1760 * eachmile
-inches = 63360 * eachmile
-feet = 5280 * eachmile
-print(1760 * eachmile)
-print(63360 * eachmile)
-print(52880 * eachmile)
+d_miles = int(input("Input distance in miles: "))
+d_inches = d_miles * 63360
+d_feet = d_miles * 5280
+d_yards = d_miles * 1760
+print("The distance in inches is %i inches." %d_inches)
+print("The distance in feet is %.2f feet." % d_feet)
+print("The distance in yards is %.2f yards." % d_yards)
