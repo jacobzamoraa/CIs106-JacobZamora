@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="jacob"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-09-20 09:23:14 PM"/>
+        <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDg6NDY6NDUgUE07Mjg4Mw=="/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDk6MjM6MTQgUE07MTsyOTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dogyear" type="Integer" array="False" size=""/>
+            <declare name="humanyears" type="Integer" array="False" size=""/>
+            <declare name="dogsname" type="String" array="False" size=""/>
+            <declare name="dogsage" type="Integer" array="False" size=""/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter dogsname&quot;" newline="True"/>
+            <input variable="dogsname"/>
+            <output expression="&quot;please enter dogsage&quot;" newline="True"/>
+            <input variable="dogsage"/>
+            <assign variable="age" expression="age(dogsage)"/>
+            <output expression="age(dogsage)" newline="True"/>
+            <call expression="CleanUp"/>
+        </body>
+    </function>
+    <function name="Age" type="Integer" variable="Return">
+        <parameters>
+            <parameter name="dogsage" type="Integer" array="False"/>
+        </parameters>
+        <body>
+            <declare name="Return" type="Integer" array="False" size=""/>
+            <assign variable="Return" expression="7 * dogsage"/>
+        </body>
+    </function>
+    <function name="CleanUp" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;thank you for using this program&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
