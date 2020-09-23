@@ -4,24 +4,25 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="jacob"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2020-09-20 09:23:14 PM"/>
+        <attribute name="saved" value="2020-09-22 09:00:10 PM"/>
         <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDg6NDY6NDUgUE07Mjg4Mw=="/>
-        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDk6MjM6MTQgUE07MTsyOTgz"/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjI7MDg6NTg6NTggUE07MTtqYWNvYjtERVNLVE9QLTZTTE5PM1I7MjAyMC0wOS0yMDswNzo0NTo0NCBQTTtBY3Rpdml0eSAzLmZwcmc7NzQwMw=="/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjI7MDk6MDA6MTAgUE07MjsyOTc3"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
+            <comment text="This is a program asking the user for their dogs name and age, converting the age to human years."/>
             <declare name="dogyear" type="Integer" array="False" size=""/>
             <declare name="humanyears" type="Integer" array="False" size=""/>
             <declare name="dogsname" type="String" array="False" size=""/>
             <declare name="dogsage" type="Integer" array="False" size=""/>
             <declare name="age" type="Integer" array="False" size=""/>
-            <output expression="&quot;please enter dogsname&quot;" newline="True"/>
             <input variable="dogsname"/>
-            <output expression="&quot;please enter dogsage&quot;" newline="True"/>
             <input variable="dogsage"/>
             <assign variable="age" expression="age(dogsage)"/>
-            <output expression="age(dogsage)" newline="True"/>
+            <output expression="dogsname" newline="True"/>
+            <output expression="dogsage" newline="True"/>
             <call expression="CleanUp"/>
         </body>
     </function>
