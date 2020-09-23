@@ -17,16 +17,15 @@ def yards(miles):
     return var_return
 
 # Main
-print("please enter miles to convert to yards")
+# This is a program converting miles to yards, inches and feet.
+print("please enter miles to convert to yards,inches,feet")
 miles = int(input())
-yards = yards(miles)
-print(yards * miles)
-print("please eneter miles to convert to inches")
 inches = int(input())
-inches = inches(miles)
-print(inches * miles)
-print("please enter miles to convert to feet")
 feet = int(input())
+yards = yards(miles)
+inches = inches(miles)
 feet = feet(miles)
+print(yards * miles)
+print(inches * miles)
 print(feet * miles)
 cleanUp()
