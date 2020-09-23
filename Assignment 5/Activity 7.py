@@ -7,10 +7,10 @@ def cleanUp():
     print("thank you for using this program")
 
 # Main
-print("please enter dogsname")
+# This is a program asking the user for their dogs name and age, converting the age to human years.
 dogsname = input()
-print("please enter dogsage")
 dogsage = int(input())
 age = age(dogsage)
-print(age(dogsage))
+print(dogsname)
+print(dogsage)
 cleanUp()
