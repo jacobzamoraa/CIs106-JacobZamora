@@ -4,27 +4,28 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="jacob"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2020-09-22 08:54:29 PM"/>
+        <attribute name="saved" value="2020-09-20 08:43:06 PM"/>
         <attribute name="created" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDc6NDU6NDQgUE07Mjg4MA=="/>
-        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjI7MDg6NTQ6MjkgUE07MjsyOTk1"/>
+        <attribute name="edited" value="amFjb2I7REVTS1RPUC02U0xOTzNSOzIwMjAtMDktMjA7MDg6NDM6MDYgUE07MTsyOTg1"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="This is a program converting miles to yards, inches and feet."/>
             <declare name="miles" type="Integer" array="False" size=""/>
             <declare name="yards" type="Integer" array="False" size=""/>
             <declare name="inches" type="Integer" array="False" size=""/>
             <declare name="feet" type="Integer" array="False" size=""/>
-            <output expression="&quot;please enter miles to convert to yards,inches,feet&quot;" newline="True"/>
+            <output expression="&quot;please enter miles to convert to yards&quot;" newline="True"/>
             <input variable="miles"/>
-            <input variable="inches"/>
-            <input variable="feet"/>
             <assign variable="yards" expression="yards(miles)"/>
-            <assign variable="inches" expression="inches(miles)"/>
-            <assign variable="feet" expression="feet(miles)"/>
             <output expression="yards * miles" newline="True"/>
+            <output expression="&quot;please eneter miles to convert to inches&quot;" newline="True"/>
+            <input variable="inches"/>
+            <assign variable="inches" expression="inches(miles)"/>
             <output expression="inches * miles" newline="True"/>
+            <output expression="&quot;please enter miles to convert to feet&quot;" newline="True"/>
+            <input variable="feet"/>
+            <assign variable="feet" expression="feet(miles)"/>
             <output expression="feet * miles" newline="True"/>
             <call expression="CleanUp"/>
         </body>
