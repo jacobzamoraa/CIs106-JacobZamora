@@ -15,3 +15,6 @@ In session 4, I learned a little more about using the Python language. I tried u
 
 ## Assignment 5
 In session 5, I learned how to create a function to make programming easier instead of typing in the same equation every time, I learned how to make a short cut using function. I would type in the function name and it would already have the equation saved into it rather than me typing the equation everytime I use it. I had a hard time how to figure out how to properly use functions in Flowgorithm. After watching a video that the professor prived to us in Blackboard it helped me much more in understanding the process of making a function. This helps in every day life because it creates short cuts.
+
+## Assignment 6
+In session 6, I learned how to add functions into Python without using Flowgorithm. I also learned that if you add a ';' after a sentence it automatically drops you down a line and indents it for you. Functions are a good way to tell the user what to do without having to type in each problem on by one because it is already there. It makes it faster and easier. How you can use functions in the real world is if you are an engineer of any kind, it makes your job faster and easier. It also allows for easier and better understanding of what you are doing using short cuts instead of having to do the same thing everyday all the time. 
