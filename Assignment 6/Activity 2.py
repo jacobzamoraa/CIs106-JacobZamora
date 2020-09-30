@@ -1,3 +1,8 @@
+# This is a program that ask the user how old
+# they are in years and converts it to months,
+# days, hours and seconds.
+
+
 def get_months(a):
     months = a*12
     return months
