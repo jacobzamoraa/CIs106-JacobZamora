@@ -1,3 +1,8 @@
+# This program ask the user for their
+# hours and rate of pay to find out their
+# weekly, annual and monthly gross pay.
+
+
 def get_annual(a, b):
     annual = a*b*52
     return annual
@@ -23,4 +28,4 @@ def main(a, b):
 print("Annual salary", get_annual(hours, rate))
 print("Monthly salary", get_monthly(hours, rate))
 print("Weekly salary", get_weekly(hours, rate))
-
+print("display_results")
